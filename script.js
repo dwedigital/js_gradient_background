@@ -1,4 +1,4 @@
-const currentColor = document.querySelector("h3")
+const currentColor = document.querySelector(".css")
 const color1 = document.querySelector('.color1')
 const color2 = document.querySelector('.color2')
 const body = document.getElementById('gradient')
