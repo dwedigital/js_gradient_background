@@ -20,12 +20,17 @@ h1 {
   transition: all 2s ease;
 }
 h2{
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
 h3{
   text-align: center;
+}
+
+.css{
+  font-family:'Courier Prime', monospace;
+  font-size:1rem;
 }
 
 input[type="color"] {
@@ -71,7 +76,5 @@ button:focus{
 h1{
   font-size: 3rem;
 }
-h2{
-  font-size: 1.5rem;
-}
+
 }
