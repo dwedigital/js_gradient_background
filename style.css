@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  width:100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,9 +34,13 @@ input[type="color"] {
   width: 32px;
   height: 32px;
   margin: 2px;
+  cursor: pointer;
+}
+input[type="color"]:focus{
+  outline: none;
 }
 button{
-  padding:20px;
+  padding:25px;
   margin:10px;
   font-size: 1rem;
   border-radius: 30px;
@@ -43,6 +48,7 @@ button{
   border:none;
   color:white;
   line-height: 0;
+  border: 1px solid white
 }
 button:hover{
   cursor: pointer;
@@ -51,6 +57,14 @@ button:hover{
 
 button:focus{
   outline: none;
+}
+
+.output{
+  text-align:center;
+  background-color: rgba(999, 999, 999, 0.2);
+  padding: 30px;
+  width:100%;
+
 }
 
 @media screen and (max-width: 600px){
